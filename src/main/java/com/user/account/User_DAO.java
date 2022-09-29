@@ -1,8 +1,5 @@
 package com.user.account;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Component;
-
 public class User_DAO {
 
 	public static UserList list = new UserList();
