@@ -20,13 +20,14 @@ public class UserResponse {
 	}
 	
 	public UserResponse(long id,String name, String email, String mobile, String address) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.email = email;
 		this.mobile = mobile;
 		this.address = address;
 	}
+	
+	
 	
 	public void setId(long id) {
 		this.id = id;

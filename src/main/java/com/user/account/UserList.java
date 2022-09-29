@@ -6,20 +6,20 @@ import java.util.List;
 
 public class UserList {
 
-	public List<UserResponse> User_List;
+	public List<UserResponse> UserList;
 	 
     public List<UserResponse> getUserList()
     {
   
-        if (User_List == null) {
+        if (UserList == null) {
   
-        	User_List
+        	UserList
                 = new ArrayList<>();
   
                    
         }
-  
-        return User_List;
+       // System.out.println(UserList);
+      return UserList;
   
            
     }
@@ -28,7 +28,7 @@ public class UserList {
     setUserList(
         List<UserResponse> UserList)
     {
-        this.User_List
+        this.UserList
             = UserList;
     }
 
