@@ -1,0 +1,77 @@
+Get Method
+
+[
+    {
+        "bookId": 1,
+        "bookName": "JavaSpring"
+    },
+    {
+        "bookId": 5,
+        "bookName": "JavaSpring"
+    }
+]
+
+Post Method
+
+Input: {
+    "bookId":6,
+    "bookName": "SpringBoot"
+}
+
+
+Output: {
+    "bookId": 6,
+    "bookName": "SpringBoot"
+}
+
+Get Method
+
+[
+    {
+        "bookId": 1,
+        "bookName": "JavaSpring"
+    },
+    {
+        "bookId": 5,
+        "bookName": "JavaSpring"
+    },
+    {
+        "bookId": 6,
+        "bookName": "SpringBoot"
+    }
+]
+
+
+Put method
+
+Input : {
+        "bookId": 4,
+        "bookName": "SpringAutomation"
+    }
+    
+Output: {
+    "bookId": 4,
+    "bookName": "SpringAutomation"
+}
+    
+Get Method
+
+[
+    {
+        "bookId": 1,
+        "bookName": "JavaSpring"
+    },
+    {
+        "bookId": 4,
+        "bookName": "SpringAutomation"
+    },
+    {
+        "bookId": 5,
+        "bookName": "JavaSpring"
+    },
+    {
+        "bookId": 6,
+        "bookName": "SpringBoot"
+    }
+]
+    
