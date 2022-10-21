@@ -26,7 +26,6 @@ public class AppTest {
 
 	{
 		RestAssured.baseURI = "https://demoqa.com/BookStore/v1/Books";
-		
 		response = RestAssured.given().contentType(ContentType.JSON).when().get("").then().assertThat().statusCode(200)
 				.extract().response();
 	}
