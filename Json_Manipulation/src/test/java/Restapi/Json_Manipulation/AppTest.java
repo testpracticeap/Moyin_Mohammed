@@ -26,7 +26,7 @@ public class AppTest {
 
 	{
 		RestAssured.baseURI = "https://demoqa.com/BookStore/v1/Books";
-
+		
 		response = RestAssured.given().contentType(ContentType.JSON).when().get("").then().assertThat().statusCode(200)
 				.extract().response();
 	}
@@ -45,7 +45,7 @@ public class AppTest {
 		// JP = JsonPath.read(response.asString(), "$.books[:"+len+"].isbn");
 		JP = JsonPath.read(response.asString(), "$.books[*].isbn");
 		System.out.println(JP);
-		
+
 		// <----------- Validating ISBN ------------------>
 		Assert.assertTrue(JP.contains("9781449325862"));
 
